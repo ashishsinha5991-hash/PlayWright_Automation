@@ -1,7 +1,7 @@
 const {test,expect} = require('@playwright/test');       
 
 //This file is to show the basic structure of a Playwright test and how to use the browser context and page objects in Playwright
-test.only('@Client App Login Test', async ({page})=> 
+test('@Client App Login Test', async ({page})=> 
     {
         
         const username = page.locator('#userEmail');
